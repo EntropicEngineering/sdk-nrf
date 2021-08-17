@@ -37,6 +37,9 @@ manifest:
       url-base: https://github.com/PelionIoT
     - name: memfault
       url-base: https://github.com/memfault
+    - name: entropic
+      url-base: https://github.com/EntropicEngineering
+
 
   # If not otherwise specified, the projects below should be obtained
   # from the ncs remote.
@@ -57,6 +60,7 @@ manifest:
     - name: zephyr
       repo-path: sdk-zephyr
       revision: v2.6.0-rc1-ncs1
+      remote: entropic
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
